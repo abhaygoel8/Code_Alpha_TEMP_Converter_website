@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+    width: 100vw;
+    height: 40vw;
+    background-color: rgba(162, 28, 171, 0.488);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 00px;
+    background-image: url("tempcf.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:  100% 120%;
+    text-align: center;
+    padding: 5px;
+    height: 650px; 
+}
+
+.wrapper{
+    background-color: rgba(6, 202, 78, 0.593);
+    padding: 30px;
+    width: 70vh;
+    text-align: center;
+    box-shadow: 0 10px 6px -6px #6a005a;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.wrapper.input-box input{
+    height: 150px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    text-align: center;
+
+
+}
+.wrapper .input-box h3{
+    font-size: 30px;
+    font-weight: 40;
+    color: rgb(184, 223, 227);
+    margin-bottom: 2px;
+
+}
+
+.wrapper .icon{
+    font-size: 40px;
+    color: rgb(226, 250, 215);
+    margin-top: 90px;
+}
+.input-box::-webkit-inner-spin-button,
+.input-box::-webkit-outer-spin-button{
+    display: none;
+}
+.wrapper .input-box h1{
+    font-size: 30px;
+    font-weight: 40;
+    color: rgb(133, 5, 5);
+    margin-bottom: 25px;
+    
+}
